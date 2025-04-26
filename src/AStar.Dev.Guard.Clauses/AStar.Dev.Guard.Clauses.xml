@@ -16,7 +16,7 @@
             <typeparam name="T">
                 Specifies the generic object to check for null.
             </typeparam>
-            <param name="object">
+            <param name="objectToCheck">
                 The object to check for null.
             </param>
             <returns>
@@ -25,6 +25,14 @@
             <exception cref="T:System.ArgumentNullException">
                 Thrown when the object is, in fact, null.
             </exception>
+        </member>
+        <member name="M:AStar.Dev.Guard.Clauses.GuardAgainst.Negative``1(``0)">
+             <summary>
+            
+             </summary>
+             <param name="objectToCheck"></param>
+             <typeparam name="T"></typeparam>
+             <returns></returns>
         </member>
     </members>
 </doc>
